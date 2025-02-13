@@ -1,0 +1,32 @@
+
+.inputBox{
+    font-size: 1.23em;
+    font-family: 'Figtree';
+}
+.inputText{
+    width: 88%;
+    font-family: inherit;
+    background: #ffffff;
+    padding: 0.7em 1.14em;
+    border-radius: 25px 0px 0px 25px;
+    border: none;
+    font-size: inherit;
+    outline: none;
+}
+.searchButton{
+    font-family: inherit;
+    width: 12%;
+    background: var(--main-primary-color);
+    padding: 0.7em 1.14em;
+    border: none;
+    font-size: inherit;
+    border-radius: 0px 25px 25px 0px;
+    color: #232323;
+    transition: all 0.3s;
+}
+.searchButton:hover{
+    background: #ffc800;
+}
+.searchButton svg{
+    font-size: inherit;
+}

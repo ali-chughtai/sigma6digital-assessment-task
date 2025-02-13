@@ -1,0 +1,46 @@
+.categoriesDisplay{
+    font-family: 'Figtree';
+    font-weight: 700;
+    font-size: 1.85em;
+    letter-spacing: 0.2px;
+}
+.categoriesDisplayBtn{
+    font-family: 'Figtree';
+    font-weight: 500;
+    font-size: 0.9em;
+    border: 1px solid #0b0b0b;
+    border-radius: 0px;
+    margin-right: 0.7em;
+    transition: all 0.3s;
+}
+.categoriesDisplayBtn:hover{
+    color: inherit;
+    background-color: var(--main-primary-color);
+}
+.categoryActive{
+    background: var(--main-primary-color);
+    border-color: var(--main-primary-color);
+    font-weight: 600;
+}
+.categoryBox{
+    border-radius: 12px;
+    overflow: hidden;
+}
+.categoryImg{
+    width: 100%;
+}
+.categoryBoxHeading{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    bottom: 10%;
+    background-color: #fff;
+    padding: 0.5em 1em;
+    margin: 0px 18%;
+    font-family: 'Figtree';
+    font-size: 1.15em;
+    font-weight: 600;
+    color: #0b0b0b;
+    border-radius: 8px;
+}
